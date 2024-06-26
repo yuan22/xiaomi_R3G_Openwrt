@@ -9,7 +9,8 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-git clone --depth=1 -b master https://github.com/sbwml/luci-app-alist package/lean/alist
+
+git clone https://github.com/sbwml/luci-app-alist package/alist
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 
 # Uncomment a feed source
